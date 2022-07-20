@@ -1,0 +1,371 @@
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-family:  'Kite One', sans-serif;
+}
+h1,h2,h3,li{
+    font-family: 'Times New Roman', Times, serif
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   /* Margin-inline: 1rem;  */
+   gap: 5rem;
+   max-width: 1600px;
+   margin: auto;
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,footer{
+    width: 80%;
+    margin: auto;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(88, 79, 79);
+    font-size: 22px;
+}
+.logo{
+    width: 22px;
+}
+#logo{
+    width: 80px;
+}
+.one{
+    display: flex;
+    margin: auto;
+}
+#nickname{
+    font-size: 40px;
+    font-weight: 100;
+}
+#btc{
+    width: 35px;
+    margin-bottom: -2px;
+    margin-right: -3px;
+}
+.one h2{
+    font-size: 40px;
+}
+
+.one div img{
+    width: 30px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    margin-top: 5rem;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    Padding-inline: 3rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+ nav li{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin: 13px;
+    font-size: 19px;
+    border-bottom: 5px solid #cc183c;
+    padding: 10px;
+    border-radius: 9px;
+}
+article{
+    display: flex;
+}
+.one-header{
+    padding: 3rem;
+    width: 50%;
+}
+.one h1{
+    font-size: 50px;
+}
+.one p{
+    font-size: 25px;
+    width: 80%;
+}
+.one button{
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(18, 62, 73);
+    color: rgb(255, 255, 255);
+}
+.one img{
+    margin: 5px;
+}
+.two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+#services{
+    background-color: #ffffff ;
+    color: rgb(0, 0, 0);
+    padding: 4rem;
+}
+.two h4{
+    margin: auto;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.three, .four{
+    display: flex;
+    gap: 5rem;
+    margin: auto;
+    font-size: 22px;
+    /* text-align: center; */
+}
+.three div,.four div{
+    width: 33.33%;
+}
+.five{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    /* width: 80%; */
+    margin: auto;
+    align-items: center;
+}
+.five-left h1{
+    font-size: 40px;
+    padding-left: 10px;
+    border-left: 5px solid #cc183c;
+}
+.five-right{
+    font-size: 28px;
+}
+.six{
+    display: flex;
+    flex-direction: column;
+    gap: -3rem;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+}
+.six>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bUNN{
+    width: 300px;
+    margin-bottom: -5rem;
+}
+.six h1{
+    font-size: 60px;
+}
+.six img{
+    width: 150px;
+    margin-right: 2rem;
+}
+#com{
+    font-size: 50px;
+    margin: auto;
+    padding-top: 2rem;
+    transform: translateY(3rem);
+}
+.three h2, .four h2, .ten li{
+    padding-left: 8px;
+    border-left: 5px solid #cc183c;
+}
+#com{
+    padding-bottom: .5rem;
+    border-bottom: 5px solid #cc183c;
+}
+.seven{
+    display: flex;
+    gap: 2rem;
+    /* width: 80%; */
+   align-items: center;
+}
+.seven-left{
+    width: 50%;
+}
+.seven-left img{
+    width: 100%;
+}
+.seven-right{
+    font-size: 30px;
+    width: 50%;
+}
+.seven-right img{
+    width: 40px;
+}
+.seven-right p{
+    width: 100%;
+}
+#web{
+    margin-bottom: -13px;
+    margin-left: 3px;
+}
+.seven-right button, .nine button{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #cc183c;
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+.eight{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin: auto;
+    /* width: 80%; */
+}
+.eight-left{
+    width: 50%;
+    font-size: 30px;
+}
+.eight-left img{
+    width: 44px;
+    margin-right: 1rem;
+}
+#mail{
+    transform: translateY(10px);
+}
+.eight-left h1{
+   font-size: 60px;
+}
+.nine{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
+    margin: auto;
+}
+.nine header, .ten header, .eleven header{
+    margin: auto;
+    font-size: 35px;
+}
+.nine header h1{
+    padding-bottom: 0.5rem;
+}
+ #com{
+    border-bottom: 5px solid #cc183c;
+}
+.nine main{
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 3rem;
+}
+.nine main div{
+    width: 33%;
+}
+.nine img{
+    width: 90%;
+    height: 29vh;
+}
+.nine a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #228b22;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nine button{
+    width: 10%;
+}
+.ten{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ten main{
+    display: flex;
+    justify-content: space-around;
+}
+.ten ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 22px;
+    gap: 1rem;
+}
+.ten ul img{
+    margin-inline: 5px;
+    transform: translateY(5px);
+}
+.ten ul span{
+    color: #228b22;
+    font-weight: bolder;
+    padding-left: 4px;
+}
+.eleven{
+    display: flex;
+    flex-direction: column;
+}
+.eleven img{
+    width: 600px;
+}
+.eleven main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+   
+}
+.eleven div{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: center;
+    font-weight: 100;
+    padding-top: 10px;
+    margin-bottom: -3.5rem;
+}
+.eleven div {
+    width: 100%;
+}
+.exp{
+    width: 100%;
+    height: 0.1vw;
+    background-color: #cc183c;
+    border: none;
+}
+
+footer{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(61, 56, 56);
+    height: 20vh;
+    padding: 2rem;
+    color: white;
+}
+footer img{
+    margin: 3px;
+    width: 25px;
+}
+
+
+/* @media only screen and (max-width: 760px) {
+    header{
+      
+    }
+    body{
+        
+    }
+    }
+    
+@media only screen and (max-width: 420px){
+    header{
+       
+    }
+    html{
+       
+    }
+} */
