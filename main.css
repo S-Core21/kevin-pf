@@ -135,7 +135,6 @@ article{
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    /* width: 80%; */
     margin: auto;
     align-items: center;
 }
@@ -146,6 +145,7 @@ article{
 }
 .five-right{
     font-size: 28px;
+    width: 95%;
 }
 .six{
     display: flex;
