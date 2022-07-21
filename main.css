@@ -652,6 +652,7 @@ hr{
 footer{
     flex-direction: column;
     width: 100%;
+    box-sizing: content-box;
 }
 footer div{
     font-size: 20px;
