@@ -411,6 +411,7 @@ footer img{
 body{
     padding-inline: 1rem;
     gap: 2rem;
+    overflow: hidden;
 }
 nav{
     display: none;
@@ -453,7 +454,8 @@ nav{
     margin: 0;
   }
   #vid{
-    width: 375px;
+    height: 300px;
+    width: 400px;
   }
   .five-left h1{
     font-size: 30px;
@@ -466,7 +468,7 @@ nav{
     display: flex;
     justify-content: center;
     padding: 1rem;
-    max-width: 390px;
+    max-width: 420px;
 }
 .two h4{
     font-size: 25px; 
@@ -475,7 +477,7 @@ nav{
     flex-direction: column;
     gap: 0rem;
     font-size: 15px;
-    max-width: 390px;
+    max-width: 420px;
 }
 .three h2, .four h2{
     font-weight: 300;
@@ -521,7 +523,7 @@ nav{
     flex-direction: column;
     /* width: 80%; */
    align-items: center;
-   max-width: 390px;
+   max-width: 420px;
 }
 .seven-left{
     width: 100%;
@@ -547,7 +549,7 @@ nav{
 .ten{
     display: flex;
     flex-direction: column;
-    max-width: 390px;
+    max-width: 420px;
 }
 .ten main{
     display: flex;
@@ -565,7 +567,7 @@ nav{
     display: flex;
     flex-direction: column;
     margin: 0rem;
-    max-width: 390px;
+    max-width: 420px;
 }
 .eleven img{
     width: 100%;
@@ -599,7 +601,7 @@ hr{
     border: none;
 }
 .nine{
-    max-width: 390px;
+    max-width: 420px;
     margin-top: 1rem;
 }
 .nine main{
@@ -622,7 +624,7 @@ hr{
     width: 20%;
 }
 .eight{
-    max-width: 390px;
+    max-width: 420px;
     flex-direction: column-reverse;
 }
 .eight-left{
