@@ -15,15 +15,15 @@ body{
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   /* Margin-inline: 1rem;  */
+   Margin-inline: 1rem; 
    gap: 5rem;
    max-width: 1600px;
    margin: auto;
 }
-.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,footer{
+/* .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,footer{
     width: 80%;
     margin: auto;
-}
+} */
 nav a{
     text-decoration: none;
     color: rgb(88, 79, 79);
@@ -124,9 +124,8 @@ article{
 .three, .four{
     display: flex;
     gap: 5rem;
-    margin: auto;
     font-size: 22px;
-    /* text-align: center; */
+    width: 100%;
 }
 .three div,.four div{
     width: 33.33%;
@@ -154,11 +153,21 @@ article{
    align-items: center;
    justify-content: center;
    margin: auto;
+   width: 100%;
+   margin-bottom: -5rem;
 }
 .six>div{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+    justify-content: space-around;
+  
+    width: 95%;
+    gap: 4rem;
+    
+}
+#brand2, #brand1{
+    margin: auto;
 }
 #bUNN{
     width: 300px;
@@ -172,10 +181,11 @@ article{
     margin-right: 2rem;
 }
 #com{
+    margin-top: -5rem;
     font-size: 50px;
     margin: auto;
     padding-top: 2rem;
-    transform: translateY(3rem);
+    transform: translateY(9rem);
 }
 .three h2, .four h2, .ten li{
     padding-left: 8px;
@@ -224,7 +234,7 @@ article{
     gap: 3rem;
     align-items: center;
     margin: auto;
-    /* width: 80%; */
+    width: 95%;
 }
 .eight-left{
     width: 50%;
@@ -244,7 +254,7 @@ article{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 80%;
+    width: 95%;
     margin: auto;
 }
 .nine header, .ten header, .eleven header{
@@ -283,10 +293,12 @@ article{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 .ten main{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
 }
 .ten ul{
     display: flex;
@@ -296,7 +308,7 @@ article{
     gap: 1rem;
 }
 .ten ul img{
-    margin-inline: 5px;
+    Margin-inline: 5px;
     transform: translateY(5px);
 }
 .ten ul span{
@@ -307,6 +319,7 @@ article{
 .eleven{
     display: flex;
     flex-direction: column;
+    margin: 2rem;
 }
 .eleven img{
     width: 600px;
@@ -342,20 +355,18 @@ footer{
     align-items: center;
     justify-content: space-between;
     background-color: rgb(61, 56, 56);
-    height: 20vh;
+    height: 15vh;
     padding: 2rem;
     color: white;
+    width: 100%;
 }
 footer img{
     margin: 3px;
     width: 25px;
 }
 
-
-/* @media only screen and (max-width: 760px) {
-    header{
-      
-    }
+/* 
+@media only screen and (max-width: 1450px) {
     body{
         
     }
