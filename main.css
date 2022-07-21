@@ -412,7 +412,7 @@ body{
     padding-inline: 1rem;
     gap: 2rem;
     margin: 0;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     padding-inline: 10px;
     width:90%;
     align-items: center;
