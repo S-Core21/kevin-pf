@@ -411,7 +411,7 @@ footer img{
 body{
     padding-inline: 1rem;
     gap: 2rem;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 nav{
     display: none;
