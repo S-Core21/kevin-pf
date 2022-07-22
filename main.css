@@ -409,13 +409,19 @@ footer img{
    border: 1px solid black;
 } */
 body{
-    padding-inline: 1rem;
     gap: 2rem;
     margin: 0;
     overflow-x: hidden;
     padding-inline: 10px;
     width:90%;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+    left: .9rem;
+    top: 0;
+    
 }
 nav{
     display: none;
