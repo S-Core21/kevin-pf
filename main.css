@@ -415,14 +415,14 @@ footer img{
    border: 1px solid black;
 } */
 html{
-    width: 95vw;
+    width: 100vw;
     margin: auto;
-    overflow-X: hidden;
+    /* overflow: hidden; */
 }
 body{
     gap: 2rem;
     margin: 0;
-    overflow-x: hidden;
+    /* overflow: hidden; */
     padding-inline: 10px;
     width:95%;
     display: flex;
@@ -469,15 +469,16 @@ nav{
     transform: translateY(-.2rem);
   }
  .five{
-    max-width: 370px;
+   width: 100%;  
  }
   .vid{
-    width: 100%;
+    display: block;
+    width: 95%;
     margin: 0;
   }
   #vid{
     height: 300px;
-    width: 380px;
+    width: 85vw;
   }
   .five-left h1{
     font-size: 30px;
@@ -571,14 +572,14 @@ nav{
 .ten{
     display: flex;
     flex-direction: column;
-    max-width: 380px;
+    max-width: 100%;
 }
 .ten main{
-    display: flex;
+    display: block;
     flex-direction: column;
     /* justify-content: space-between; */
     width: 95%;
-    margin-left: -6rem;
+    margin-left: -5rem;
 }
 .ten main ul{
     transform: translateX(2.5rem);
