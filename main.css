@@ -15,10 +15,10 @@ body{
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   padding-inline: 2rem;
+   Padding-inline: 2rem;
    gap: 5rem;
-   max-width: 1450px;
-   margin: auto;
+   /* max-width: 1450px; */
+   /* margin: auto; */
 }
 
 nav a{
@@ -129,7 +129,7 @@ article{
 }
 .vid{
     display: flex;
-    width: 1380px;
+    width: 95vw;
     margin: auto;
 }
 #vid{
@@ -325,12 +325,11 @@ article{
 .ten{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 .ten main{
     display: flex;
-    /* justify-content: space-between; */
-    width: 100%;
+    
 }
 .ten ul{
     display: flex;
@@ -338,6 +337,7 @@ article{
     list-style-type: none;
     font-size: 22px;
     gap: 1rem;
+    transform: translateX(-2rem);
 }
 .ten ul img{
     Margin-inline: 5px;
@@ -397,31 +397,43 @@ footer img{
     width: 25px;
 }
 
-/* 
+
 @media only screen and (max-width: 1450px) {
     body{
-        
+        width: 100vw;
+        margin: auto;
+        box-sizing: border-box;
     }
+    }
+
+/* @media only screen and (max-width: 760px) {
+
     } */
     
 @media only screen and (max-width: 420px){
     /* .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,footer{
    border: 1px solid black;
 } */
+html{
+    width: 95vw;
+    margin: auto;
+    overflow-X: hidden;
+}
 body{
     gap: 2rem;
     margin: 0;
     overflow-x: hidden;
     padding-inline: 10px;
-    width:90%;
+    width:95%;
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
     
-    position: absolute;
+    /* position: absolute;
     left: .9rem;
     top: 0;
-    
+     */
 }
 nav{
     display: none;
@@ -568,6 +580,9 @@ nav{
     width: 95%;
     margin-left: -6rem;
 }
+.ten main ul{
+    transform: translateX(2.5rem);
+}
 .ten header, .eleven header, .nine header{
     font-size: 20px;
     margin-bottom: -1rem;
@@ -577,29 +592,29 @@ nav{
     display: flex;
     flex-direction: column;
     margin: 0rem;
-    max-width: 400px;
+    /* max-width: 400px; */
 }
 .eleven img{
-    width: 100%;
+    width: 150px;
 }
 .eleven main{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 0rem;
     width: 100%;
-   
+   font-size: 9px;
 }
 .eleven div{
     display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    align-items: center;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: flex-start;
     font-weight: 100;
     padding-top: 10px;
     margin-bottom: 0rem;
 }
 .eleven div {
-    width: 100%;
+    width: 95%;
 }
 hr{
     display: none;
@@ -611,7 +626,7 @@ hr{
     border: none;
 }
 .nine{
-    max-width: 370px;
+    max-width: 95%;
     margin-top: 1rem;
 }
 .nine main{
